@@ -20,7 +20,7 @@ classes: 47 (balanced)
 The trained model based on SVM classifier is saved and available.
 
 How to run predictions on new/test images:
-1) To use the existing model, you can directly unzip the saved model and use it.
-2) There is a mapping file for EMNIST balanced dataset(maps the class to corresponding ascii value) already added in the repo
+1) To use the existing model, you can directly unzip the saved model(signtext_recognition_model_balanced_dataset.pkl) and use it.
+2) There is a mapping file(emnist-balanced-mapping.txt) for EMNIST balanced dataset(maps the class to corresponding ascii value) already added in the repo
 3) Add the image path on which we need to recognize the text data in line number 80 in main.py
  
