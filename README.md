@@ -8,7 +8,7 @@ Extended MNIST dataset(EMNIST) whis a set of handwritten character digits derive
 converted to a 28x28 pixel image format and dataset structure that directly matches the MNIST dataset. 
 Further information on the dataset contents and conversion process can be found in the paper available at https://arxiv.org/abs/1702.05373v1.
 
-Balanced dataset
+Balanced dataset:
 The EMNIST Balanced dataset is meant to address the balance issues in the ByClass and ByMerge datasets. 
 It is derived from the ByMerge dataset to reduce mis-classification errors due to capital and lower case letters and also has an equal number of samples per class. This dataset is meant to be the most applicable.
 
