@@ -1,6 +1,6 @@
 # ML_Sign_Text_Recognition
 
-character recognition on how to extract characters/digits from the sign text images
+Character recognition on how to extract characters/digits from the sign text images
 
 Datasets:
 EMNIST dataset - Balanced dataset
