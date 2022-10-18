@@ -79,12 +79,12 @@ if __name__ == '__main__':
         img_col = 28
         image_path = 'C:/Users/uidq6830/Downloads/Sign_detection_TestSet/TestSet/15.png'
         features = obtain_featurevector(image_path, img_row, img_col)
-        print(features.shape)
-        if features.shape[0] < 1:
-            features = features.reshape(1, -1)
-
-        predictions = saved_model.predict(features)
-        print('Detected text from given sign image:')
-        for i in range(len(predictions)):
-            print('{}'.format(chr(int(mapping[predictions[i]][1]))))
+        # print(features.shape)
+        if features.shape[0] >= 1:
+            predictions = saved_model.predict(features)
+            print('Detected text from given sign image:')
+            for i in range(len(predictions)):
+                print('{}'.format(chr(int(mapping[predictions[i]][1]))))
+        else:
+            print('No text detected')
 
